@@ -1,0 +1,32 @@
+# ============================================================
+# YOLO26 vs Faster R-CNN — Aquarium Detection Benchmark App
+# requirements.txt
+# ============================================================
+# Instalar con: pip install -r requirements.txt
+# Nota: PyTorch debe instalarse con el comando oficial de
+# https://pytorch.org/get-started/locally/ según tu hardware.
+# Ejemplo CUDA 12.1:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# Ejemplo CPU:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# ============================================================
+
+# --- Deep Learning & Computer Vision ---
+ultralytics>=8.2.0           # YOLO26 (YOLOv8/v11 backbone)
+torch>=2.1.0                 # PyTorch core (instalar con el comando oficial)
+torchvision>=0.16.0          # Faster R-CNN arquitectura y transforms
+opencv-python>=4.9.0         # Procesamiento de imagen y video (cv2)
+Pillow>=10.2.0               # PIL — manejo de imágenes
+
+# --- Interfaz de Usuario (Streamlit) ---
+streamlit>=1.35.0            # Framework UI web local para ML
+streamlit-webrtc>=0.47.0     # Soporte de video streaming en Streamlit (opcional)
+
+# --- Utilidades ---
+numpy>=1.26.0                # Operaciones numéricas
+matplotlib>=3.8.0            # Visualización auxiliar (gráficos de métricas)
+pandas>=2.2.0                # Tablas de resultados y métricas
+tqdm>=4.66.0                 # Barras de progreso en procesamiento de video
+
+# --- Exportación de resultados (opcional) ---
+fpdf2>=2.7.0                 # Generación de reportes PDF (opcional)
