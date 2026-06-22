@@ -36,7 +36,7 @@ Este experimento busca **cuantificar empíricamente** estas diferencias sobre un
 | Parámetro | Valor |
 |---|---|
 | **Fuente** | Roboflow Universe — `aquarium-6cfzm v1` |
-| **Total de imágenes** | ~610 imágenes |
+| **Total de imágenes** | ~638 imágenes |
 | **Split de entrenamiento** | 426 imágenes |
 | **Split de validación** | 122 imágenes |
 | **Split de test** | 61 imágenes |
